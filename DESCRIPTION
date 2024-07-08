@@ -1,0 +1,22 @@
+Package: ShinySiq
+Title: ShinySiq
+Version: 0.0.0.9000
+Authors@R: 
+    person("Cédric", "MONDY", , "cedric.mondy@ofb.gouv.fr", role = c("cre", "aut"))
+Description: Explorer et utiliser les données de SIQ.
+License: MIT + file LICENSE
+URL: https://github.com/OFB-IdF/ShinySiq
+BugReports: https://github.com/OFB-IdF/ShinySiq/issues
+Imports: 
+    config (>= 0.3.2),
+    golem (>= 0.4.1),
+    knitr,
+    shiny (>= 1.8.1.1)
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.3.1
